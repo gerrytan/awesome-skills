@@ -1,31 +1,4 @@
-# Dependencies
-node_modules/
-*.lock
-yarn.lock
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
 .DS_Store
-
-# OS
-Thumbs.db
-
-# Logs
-*.log
-
-# Build
-dist/
-build/
-out/
-
-# Testing
-coverage/
-.nyc_output/
-
-# Environment
-.env
-.env.local
+__pycache__/
+.idea/
+.vscode/
