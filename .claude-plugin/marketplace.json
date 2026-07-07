@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "gerrytan-awesome-skills",
+  "version": "1.0.0",
+  "description": "A personal collection of useful agent skills.",
+  "owner": {
+    "name": "Gerry Tan"
+  },
+  "plugins": [
+    {
+      "name": "azurerm-acctest",
+      "description": "Run terraform-provider-azurerm acceptance tests locally with mitmproxy traffic capture",
+      "version": "1.0.0",
+      "source": "./skills/azurerm-acctest"
+    }
+  ]
+}
