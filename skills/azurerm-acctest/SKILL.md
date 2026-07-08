@@ -8,7 +8,12 @@ license: Complete terms in LICENSE.txt
 
 Use this skill when running [terraform-provider-azurerm](https://github.com/hashicorp/terraform-provider-azurerm) acceptance tests locally.
 
-## Quick Start
+## Prerequisites
+
+1. Have administrator access to an Azure subscription
+3. Have [mitmproxy](https://mitmproxy.org/) installed and available in `PATH` for HTTP traffic capture
+
+## Steps
 
 ### 1. Export the Required Test Environment
 
